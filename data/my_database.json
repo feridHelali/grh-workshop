@@ -1,0 +1,39 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "fullname": "Zineeddine Zidane",
+      "gender": "Homme",
+      "post": "Developper",
+      "departement": "Web"
+    },
+    {
+      "fullname": "Diago Armoando Maradona",
+      "gender": "Homme",
+      "post": "Developer",
+      "departement": "Mobile",
+      "id": 2
+    }
+  ],
+  "contrat": [
+    {
+      "id": 1,
+      "employee": 1,
+      "begining_date": "01/01/2020",
+      "end_date": "31/12/2020",
+      "type": "CDD",
+      "description": "<h1>Closes</h1><p>lorem epsum</p>"
+    }
+  ],
+  "presence": [
+    {
+      "id": 1,
+      "employee": 1,
+      "day": "01/01/2020",
+      "entry_time": "08:00",
+      "leave_time": "14:00",
+      "absence": false,
+      "motif": null
+    }
+  ]
+}
